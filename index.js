@@ -9,8 +9,8 @@ function changeCompletely(element, array, index) {
   return `Mmmm, ${fruit}!!!`;
 }
 
-var animals = ["dog". "cat", "squarrel"];
+const array = ["apple", "banana", "cherry"];
 
-doToElementsInArray(animals, changeCompletely);
+doToElementsInArray(array, changeCompletely);
 
-return animals;
+return array;
