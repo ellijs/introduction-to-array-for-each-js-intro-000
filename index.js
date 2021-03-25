@@ -13,4 +13,4 @@ var animals = ["dog". "cat", "squarrel"];
 
 doToElementsInArray(animals, changeCompletely);
 
-console.log(animals);
+return animals;
