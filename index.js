@@ -5,12 +5,12 @@ function doToElementsInArray(array, callback) {
 
 
 // Add your changeCompletely() function here:
-function changeCompletely(element, array, index) {
-  return `Mmmm, ${fruit}!!!`;
+function changeCompletely(element, index, array) {
+  array[index] = Math.floor(Math.random() * 100 + 2).toString() + `${array[index]}s!!!`
 }
 
-const array = ["apple", "banana", "cherry"];
+var animals = ["dog", "cat", "squarrel"];
 
-doToElementsInArray(array, changeCompletely);
+doToElementsInArray(animals, changeCompletely);
 
-return array;
+return animals;
