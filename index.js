@@ -11,6 +11,6 @@ function changeCompletely(element, array, index) {
 
 var animals = ["dog". "cat", "squarrel"];
 
-doToElenentsInArray(animals, changeCompletely);
+doToElementsInArray(animals, changeCompletely);
 
 console.log(animals);
